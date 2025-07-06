@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Rock , Paper And Scissors Game</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        button:hover{
+            background-color: aqua;      
+        }
+    </style>
+</head>
+<body>
+    <h1> Rock , Paper And Scissors Game...</h1>
+    <button onclick="
+   
+    let randomnumber=Math.random() * 3
+    let computerchoice;
+    if(randomnumber>=0 && randomnumber<=1){
+        // console.log('computer choice is Rock')
+         computerchoice='rock';
+    }else if(randomnumber>1 && randomnumber<=2){
+         computerchoice='paper'
+        // console.log('computer choice is PAPER')
+
+    }else{
+          computerchoice='scissor'
+        //   console.log('computer choice is Scissor')
+    }
+   
+    let resultmessage;
+    if(computerchoice==='paper'){
+        resultmessage='Computer won';
+    }else if(computerchoice==='rock'){
+        resultmessage=`It's a TIE`;
+    }else if(computerchoice==='scissor'){
+        resultmessage='User won';
+    }
+    alert(`You choose ROCK. Computer choice is ${computerchoice} and ${resultmessage}`)
+    ">Rock</button> 
+    <button onclick="
+   
+    let randomnumber=Math.random() * 3
+    let computerchoice;
+    if(randomnumber>=0 && randomnumber<=1){
+        // console.log('computer choice is Rock')
+         computerchoice='rock';
+    }else if(randomnumber>1 && randomnumber<=2){
+         computerchoice='paper'
+        // console.log('computer choice is PAPER')
+
+    }else{
+          computerchoice='scissor'
+        //   console.log('computer choice is Scissor')
+    }
+   
+    let resultmessage;
+    if(computerchoice==='rock'){
+        resultmessage='User Won';
+    }else if(computerchoice==='paper'){
+        resultmessage=`It's a TIE`;
+    }else if(computerchoice==='scissor'){
+        resultmessage='Computer Won';
+    }
+    alert(`You choose PAPER , Computer choice is ${computerchoice} and ${resultmessage}`)
+    ">Paper</button>
+    <button onclick="
+   
+    let randomnumber=Math.random() * 3
+   
+    if(randomnumber>=0 && randomnumber<=1){
+        // console.log('computer choice is Rock')
+         computerchoice='rock';
+    }else if(randomnumber>1 && randomnumber<=2){
+         computerchoice='paper'
+        // console.log('computer choice is PAPER')
+
+    }else{
+          computerchoice='scissor'
+        //   console.log('computer choice is Scissor')
+    }
+   
+   
+    if(computerchoice==='rock'){
+        resultmessage='computer won';
+    }else if(computerchoice==='paper'){
+        resultmessage=`user won`;
+    }else if(computerchoice==='scissor'){
+        resultmessage=`It's a TIE`;
+    }
+    alert(`You choose Scissor , Computer choice is ${computerchoice} and ${resultmessage}`)
+    ">Scissor</button>
+</body>
+</html>
